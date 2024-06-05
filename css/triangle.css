@@ -1,0 +1,30 @@
+.triangle_grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.trianlge_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trianlge_container img {
+    width: 550px;
+    height: 520px;
+}
+
+.voice {
+    text-align: center;
+}
+
+.voice p {
+    width: 250px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}

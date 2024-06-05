@@ -1,0 +1,43 @@
+.formuls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 40px;
+
+    gap: 150px;
+
+    font-size: 60px;
+}
+
+.formula_container {
+    text-align: center;
+}
+
+.sign_name {
+    margin-bottom: 20px;
+}
+
+.sign {
+    margin-bottom: 100px;
+    color: brown;
+
+    font-weight: 700;
+
+    background-image: url(../img/back_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.formula {
+    margin-bottom: 30px;
+    color: brown;
+
+    font-weight: 700;
+}
+
+.formula_container img {
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,75 @@
+.dist_container {
+    display: grid;
+    grid-template-areas:
+        "man task car"
+        "man dist car"
+        "ans1 ans2 ans3"
+    ;
+
+    justify-content: center;
+    justify-items: center;
+}
+
+.task {
+    grid-area: task;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 180px;
+
+    background-image: url(../img/back_2.png);
+    background-image: url(../img/back_2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.task p {
+    font-size: 28px;
+}
+
+.man {
+    grid-area: man;
+}
+
+.dist {
+    grid-area: dist;
+
+    width: 600px;
+}
+
+.answer {
+    padding: 10px;
+
+    font-size: 24px;
+
+    background-color: white;
+    border: 5px solid rgba(255, 255, 255, 0);
+
+    cursor: pointer;
+
+    transition: transform 1s ease;
+    transition: border 0.7s;
+}
+
+.answer:hover {
+    transform: scale(1.2);
+}
+
+.car {
+    grid-area: car;
+}
+
+.ans1 {
+    grid-area: ans1;
+}
+
+.ans2 {
+    grid-area: ans2;
+}
+
+.ans3 {
+    grid-area: ans3;
+}

@@ -1,0 +1,75 @@
+.time_container {
+    display: grid;
+    grid-template-areas:
+        "time task task task"
+        "time ans1 ans3 ans2"
+    ;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    column-gap: 40px;
+}
+
+.task {
+    grid-area: task;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 520px;
+    height: 80px;
+
+    background-image: url(../img/task3/task_back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.task p {
+    font-size: 28px;
+}
+
+.time {
+    grid-area: time;
+
+    width: 250px;
+    height: 250px;
+}
+
+.task {
+    grid-area: task;
+}
+
+.answer {
+    padding: 10px;
+
+    font-size: 24px;
+    font-weight: 600;
+
+    background-color: white;
+    border: 5px solid rgba(255, 255, 255, 0);
+
+    cursor: pointer;
+
+    transition: transform 1s ease;
+    transition: border 0.7s;
+}
+
+.answer:hover {
+    transform: scale(1.2);
+}
+
+.ans1 {
+    grid-area: ans1;
+}
+
+.ans2 {
+    grid-area: ans2;
+}
+
+.ans3 {
+    grid-area: ans3;
+}
